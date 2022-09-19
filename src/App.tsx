@@ -29,10 +29,10 @@ function App() {
   }, []);
 
   return (
-    <div className="max-w-[1344px] mx-auto flex flex-col items-center my-20">
-      <img src={logoImg} alt="" />
+    <div className="max-w-[1270px] mx-auto flex flex-col items-center my-20">
+      <img src={logoImg} alt=""/>
 
-      <h1 className="text-6xl text-white font-black mt-20"> 
+      <h1 className="text-5xl text-white font-black mt-20"> 
         Your <span className="text-transparent bg-nlw-gradient bg-clip-text">duo</span> is here. 
       </h1>
 
