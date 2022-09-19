@@ -107,7 +107,7 @@ export function CreateAdModal() {
                                     title="Sunday"
                                     className={`w-8 h-8 rounded ${weekDays.includes('0') ? 'bg-violet-500' : 'bg-zinc-900'}`}
                                 >
-                                    D 
+                                    S
                                 </ToggleGroup.Item>
 
                                 <ToggleGroup.Item 
@@ -115,7 +115,7 @@ export function CreateAdModal() {
                                     title="Monday"
                                     className={`w-8 h-8 rounded ${weekDays.includes('1') ? 'bg-violet-500' : 'bg-zinc-900'}`}
                                 > 
-                                    S 
+                                    M
                                 </ToggleGroup.Item>
 
                                 <ToggleGroup.Item 
@@ -131,7 +131,7 @@ export function CreateAdModal() {
                                     title="Wednesday"
                                     className={`w-8 h-8 rounded ${weekDays.includes('3') ? 'bg-violet-500' : 'bg-zinc-900'}`}
                                 > 
-                                    Q 
+                                    W
                                 </ToggleGroup.Item>
 
                                 <ToggleGroup.Item 
@@ -139,7 +139,7 @@ export function CreateAdModal() {
                                     title="Thursday"
                                     className={`w-8 h-8 rounded ${weekDays.includes('4') ? 'bg-violet-500' : 'bg-zinc-900'}`}
                                 > 
-                                    Q 
+                                    T
                                 </ToggleGroup.Item>
 
                                 <ToggleGroup.Item 
@@ -147,7 +147,7 @@ export function CreateAdModal() {
                                     title="Friday"
                                     className={`w-8 h-8 rounded ${weekDays.includes('5') ? 'bg-violet-500' : 'bg-zinc-900'}`}
                                 > 
-                                    S 
+                                    F
                                 </ToggleGroup.Item>
 
                                 <ToggleGroup.Item 
