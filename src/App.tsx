@@ -8,7 +8,7 @@ import { CreateAdModal } from './components/CreateAdModal';
 
 import './styles/main.css';
 
-import logoImg from './assets/logo-nlw-esports.svg'
+import logoImg from './assets/logo-nlw-esports.svg';
 
 interface Game {
   id: string;
