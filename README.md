@@ -57,10 +57,6 @@ An application to find a duo and play your favorite games. In this web version i
     <a href="https://nodejs.org/en/"> 
       <img align="center" alt="Icon-Node.js" height="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"> 
     </a> &nbsp;
-    <!-- Icon Yarn --> 
-    <a href="https://yarnpkg.com/"> 
-      <img align="center" alt="Icon-Yarn" height="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg"> 
-    </a> &nbsp;
     <!-- Icon TypeScript --> 
     <a href="https://www.typescriptlang.org/"> 
       <img align="center" alt="Icon-TypeScript" height="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"> 
@@ -73,13 +69,9 @@ An application to find a duo and play your favorite games. In this web version i
     <a href="https://reactjs.org/"> 
       <img align="center" alt="Icon-React" height="35" src="https://user-images.githubusercontent.com/44311634/178088844-02a9c9ba-28b9-4ef6-87f0-d12d52ceaf0b.png"> 
     </a> &nbsp;
-    <!-- Icon SASS --> 
-    <a href="https://sass-lang.com/"> 
-      <img align="center" alt="Icon-SASS" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"> 
-    </a> &nbsp;
-    <!-- Icon Socket.IO --> 
-    <a href="https://socket.io/"> 
-      <img align="center" alt="Icon-Socket.IO" height="35" src="https://user-images.githubusercontent.com/44311634/185236383-1c8c6abb-bb45-4505-a382-81f1d6eb3a1d.png"> 
+    <!-- Icon TailwindCSS --> 
+    <a href="https://tailwindcss.com/"> 
+      <img align="center" alt="Icon-TailwindCSS" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"> 
     </a> &nbsp;
     <!-- Icon Axios -->
     <a href="https://axios-http.com/"> 
@@ -99,22 +91,22 @@ To get started, you need to have <strong>Node.js 16+</strong> installed on your 
 
 ### Prerequisites 
 
-First of all, we need to ensure that the <strong>server is running</strong>, to do so, visit my <a href="https://github.com/vihugoos/chatbox-server">@chatbox-server</a> repository and follow the install and run guide. 
+First of all, we need to ensure that the <strong>server is running</strong>, to do so, visit my <a href="https://github.com/vihugoos/eSports-duo-server">@eSports-duo-server</a> repository and follow the install and run guide. 
 
 
 ### Installation 
 
 1. Clone the repo 
    ```bash
-   git clone https://github.com/vihugoos/chatbox-web.git 
+   git clone https://github.com/vihugoos/eSports-duo-web.git 
    ```
 2. Inside the project root directory install all project dependencies 
    ```cmd
-   yarn install
+   npm install
    ```
 3. Create an `.env.local` file with the server API URL 
    ```cmd
-   echo "VITE_SERVER_API_URL='http://localhost:4000'" >> .env.local 
+   echo "VITE_SERVER_API_URL='http://localhost:3333'" >> .env.local 
    ``` 
  
 
@@ -123,9 +115,9 @@ First of all, we need to ensure that the <strong>server is running</strong>, to 
 
 With the installation complete, we can start the project.
 
-* Starting the project, after access [`localhost:3000`](http://localhost:3000) from your browser
+* Starting the project, after access [`localhost:5173`](http://localhost:5173) from your browser
    ```bash
-   yarn run dev  
+   npm run dev  
    ```
 <br/>
 
