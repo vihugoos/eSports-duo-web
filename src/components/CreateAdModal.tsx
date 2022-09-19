@@ -33,7 +33,7 @@ export function CreateAdModal() {
         }
 
         try {
-            axios.post(`${import.meta.env.VITE_SERVER_API_URL}/games/${data.gameId}/ads`, {
+            await axios.post(`${import.meta.env.VITE_SERVER_API_URL}/games/${data.gameId}/ads`, {
                 name: data.name,
                 yearsPlaying: data.yearsPlaying,
                 discord: data.discord,
