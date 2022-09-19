@@ -1,20 +1,17 @@
 <div id="top"> </div>
 
-[![Feedback Widget](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://chatbox-web.vercel.app/)
-
 <!---- PROJECT LOGO ----> 
 <div align="center">
 
   <h2 align="center"> 
-    Chatbox - Web Version 
+    eSports Duo - Web Version 
   </h2>
   
   <p align="center">
-    An application to chat in real time with other people, developed with React and Socket.IO Client. <br/>
-    Explore <a href="https://reactjs.org/docs/getting-started.html">React</a> or <a href="https://socket.io/docs/v4/">Socket.IO</a> docs &#187; <br/> <br/>
-    <a href="https://chatbox-web.vercel.app/"> View Demo Project </a> &nbsp;•&nbsp;
-    <a href="https://github.com/vihugoos/chatbox-web/issues"> Report Bug </a> &nbsp;•&nbsp;
-    <a href="https://github.com/vihugoos/chatbox-web/issues"> Request Feature </a>
+    An application to find a duo to play your favorite game, developed with React and Tailwindcss. <br/>
+    Explore <a href="https://reactjs.org/docs/getting-started.html">React</a> or <a href="https://tailwindcss.com/docs/installation">Tailwindcss</a> docs &#187; <br/> <br/>
+    <a href="https://github.com/vihugoos/eSports-duo-web/issues"> Report Bug </a> &nbsp;•&nbsp;
+    <a href="https://github.com/vihugoos/eSports-duo-web/issues"> Request Feature </a>
   </p>
 </div>
 
