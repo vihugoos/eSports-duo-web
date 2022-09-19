@@ -17,7 +17,7 @@ export function CreateAdModal() {
     const [useVoiceChannel, setUseVoiceChannel] = useState(false);
 
     useEffect(() => {
-        axios("http://localhost:3333/games").then(response => {
+        axios(`${import.meta.env.VITE_SERVER_API_URL}/games`).then(response => {
             setListGames(response.data);
         })
     }, []);
@@ -33,7 +33,7 @@ export function CreateAdModal() {
         }
 
         try {
-            axios.post(`http://localhost:3333/games/${data.game}/ads`, {
+            axios.post(`${import.meta.env.VITE_SERVER_API_URL}/games/${data.gameId}/ads`, {
                 name: data.name,
                 yearsPlaying: data.yearsPlaying,
                 discord: data.discord,
@@ -62,8 +62,8 @@ export function CreateAdModal() {
                         <label htmlFor="game" className="font-semibold"> What's the game? </label>
 
                         <select 
-                            id="game" 
-                            name="game"
+                            id="gameId" 
+                            name="gameId"
                             className="bg-zinc-900 py-3 px-4 rounded text-sm placeholder:text-zinc-500 appearance-none"
                             defaultValue=""
                         >

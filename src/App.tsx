@@ -23,7 +23,7 @@ function App() {
   const [listGames, setListGames] = useState<Game[]>([]);
 
   useEffect(() => {
-    axios("http://localhost:3333/games").then(response => {
+    axios(`${import.meta.env.VITE_SERVER_API_URL}/games`).then(response => {
         setListGames(response.data);
       })
   }, []);
