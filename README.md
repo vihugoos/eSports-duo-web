@@ -8,7 +8,7 @@
   </h2>
   
   <p align="center">
-    An application to find a duo to play your favorite game, developed with React and Tailwindcss. <br/>
+    An application to find a duo and play your favorite games, developed with React and Tailwindcss. <br/>
     Explore <a href="https://reactjs.org/docs/getting-started.html">React</a> or <a href="https://tailwindcss.com/docs/installation">Tailwindcss</a> docs &#187; <br/> <br/>
     <a href="https://github.com/vihugoos/eSports-duo-web/issues"> Report Bug </a> &nbsp;•&nbsp;
     <a href="https://github.com/vihugoos/eSports-duo-web/issues"> Request Feature </a>
@@ -47,7 +47,7 @@
   <img src="https://user-images.githubusercontent.com/44311634/185269192-3b0b4aef-f548-4262-98f0-66e90fd397c0.gif" align="center" alt="Project Home Page">
   <br/> <br/> 
 </div>
-A platform to chat in real time with other people, using GitHub for authentication and identification. 
+An application to find a duo and play your favorite games. In this web version it is possible to register a new ad.
 
 
 ### Built With 
