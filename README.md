@@ -44,7 +44,7 @@
 ## About The Project
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/44311634/191143584-b3ca7b93-01d3-483f-93f6-5862e4525176.gif" align="center" alt="Project Home Page">
+  <img src="https://user-images.githubusercontent.com/44311634/191146773-653e48c8-52b0-48c7-a8e5-7a3cea85a462.gif" align="center" alt="Project Home Page">
   <br/> <br/> 
 </div>
 An application to find a duo and play your favorite games. In this web version it is possible to register a new ad.
